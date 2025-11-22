@@ -1,0 +1,29 @@
+{
+    "name": "edgvi10/utilities-controller",
+    "description": "A PHP library providing a UtilitiesController class with various utility functions for environment management, data sanitization, encryption, and more.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Vieira",
+            "email": "edgvi10@gmail.com",
+            "homepage": "https://github.com/edgvi10"
+        }
+    ],
+    "repositories": {
+        "github": {
+            "type": "vcs",
+            "url": "https://github.com/edgvi10/PkgUtilitiesController"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "EDGVI10\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
